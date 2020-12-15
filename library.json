@@ -1,0 +1,30 @@
+{
+  "name": "NMEA2000-pic32mx",
+  "keywords": "nmea 2000, nmea, 2000, communication, bus, boat, marine",
+  "description": "A driver for the NMEA2000 library and the PIC32MX1/2/5 boards",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/davidhoy/NMEA2000_pic32mx.git"
+  },
+  "authors":
+  {
+    "name": "David Hoy",
+    "email": "david@thehoys.com",
+    "url": "",
+    "maintainer": true
+  },
+  "version": "1.1.0",
+  "license": "MIT",
+  "frameworks": "*",
+  "platforms": "PIC32MX1/2/5",
+  "dependencies":
+  [
+      {
+          "name": "NMEA2000-library",
+          "authors": "Timo Lappalainen",
+          "url": "Kave Oy <www.kave.fi>",
+          "maintainer": true
+      }
+   ]
+}
