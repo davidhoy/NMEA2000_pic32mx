@@ -1,2 +1,5 @@
 tags
 *.o
+NMEA2000_pic32mx.X/.generated_files/
+NMEA2000_pic32mx.X/build/
+NMEA2000_pic32mx.X/dist/
